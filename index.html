@@ -1,0 +1,126 @@
+<!DOCTYPE html> 
+<html> 
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta http-equiv="Expires" content="0"> 
+	<title>Page Title</title>
+	<link rel="stylesheet" href="jquery.mobile-1.0.min.css" />
+	<script src="jquery-1.6.4.min.js"></script>
+	<script src="jquery.mobile-1.0.min.js"></script>
+	<script src="update.js"></script>
+</head> 
+
+
+<body> 
+
+<div id="home" data-role="page">
+	<div data-role="header">
+		<h1>OSD-Manager</h1>
+	</div><!-- /header -->
+	<div data-role="content">	
+
+<div class="ui-grid-a">
+	<div class="ui-block-a"><H3 id="stext1">Lamp1</H3></div>
+	<div class="ui-block-b">
+	<select name="slider1" id="slider1" data-role="slider">
+		<option value="off">Off</option>
+		<option value="on">On</option>
+	</select>
+        </div>
+	<div class="ui-block-a"><H3 id="stext2">Lamp2</H3></div>
+	<div class="ui-block-b">
+	<select name="slider2" id="slider2" data-role="slider">
+		<option value="off">Off</option>
+		<option value="on">On</option>
+	</select>
+        </div>
+	<div class="ui-block-a"><H3 id="stext3">Lamp3</H3></div>
+	<div class="ui-block-b">
+	<select name="slider3" id="slider3" data-role="slider">
+		<option value="off">Off</option>
+		<option value="on">On</option>
+	</select>
+        </div>
+	<div class="ui-block-a"><H3 id="stext4">Lamp4</H3></div>
+	<div class="ui-block-b">
+	<select name="slider4" id="slider4" data-role="slider">
+		<option value="off">Off</option>
+		<option value="on">On</option>
+	</select>
+        </div>
+	<div class="ui-block-a"><H3 id="stext5">Lamp5</H3></div>
+	<div class="ui-block-b">
+	<select name="slider5" id="slider5" data-role="slider">
+		<option value="off">Off</option>
+		<option value="on">On</option>
+	</select>
+        </div>
+	<div class="ui-block-a"><H3 id="stext6">Lamp6</H3></div>
+	<div class="ui-block-b">
+	<select name="slider6" id="slider6" data-role="slider">
+		<option value="off">Off</option>
+		<option value="on">On</option>
+	</select>
+        </div>
+	<div class="ui-block-a"><H3 id="stext7">Lamp7</H3></div>
+	<div class="ui-block-b">
+	<select name="slider7" id="slider7" data-role="slider">
+		<option value="off">Off</option>
+		<option value="on">On</option>
+	</select>
+        </div>
+	<div class="ui-block-a"><H3 id="stext8">Lamp8</H3></div>
+	<div class="ui-block-b">
+	<select name="slider8" id="slider8" data-role="slider">
+		<option value="off">Off</option>
+		<option value="on">On</option>
+	</select>
+        </div><!-- /block-b -->
+</div><!-- /grid-a -->
+
+
+	</div><!-- /content -->
+ <div data-role="navbar">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#option">Option</a></li>
+    </ul>
+  </div>
+
+	<div data-role="footer"><h4>V0.1 osd-alliance.org</h4></div><!-- /footer -->
+	
+</div><!-- /page -->
+
+<div data-role="page" id="option">
+  <div data-role="header"><h1>Option</h1></div>
+  <div data-role="content">
+  	<p>Serverinformationen</p>
+    <div data-role="fieldcontain">
+    	<form >
+        <label for="ipname">IP eingeben:</label>
+    	<input type="text" name="ipname" id="ipname"  />
+ 
+        <label for="email">E-Mail eingeben:</label>
+    	<input type="email" name="email" id="email" value=""  />
+
+	<div id="submitDiv" data-role="fieldcontain">    
+  	 <input type="button" id="button" value="Submit IP" data-inline="true" />
+	</div>
+ 
+        </form>
+
+    </div>
+  </div>
+  <div data-role="navbar">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#option">Option</a></li>
+    </ul>
+  </div>
+  <div data-role="footer"><h4>V0.1 osd-alliance.org</h4></div>
+</div>
+
+</body>
+</html>
