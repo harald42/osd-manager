@@ -1,0 +1,6 @@
+git add *
+git commit -m 'initial upload'
+git push origin master
+
+// daten aus git holen
+git pull

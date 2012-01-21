@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "com.phonegap.getting.started"
+version = "1.0.0">
+
+<name>PhoneGap: OSD Manager</name>
+
+<description>
+An example to switch plus on or off over a phone
+</description>
+
+<author href="http://harald42.github.com"
+email="harald@the-develop.net">
+Harald Pichler
+</author>
+
+<gap:platforms>
+<gap:platform name="android" minVersion="2.1" />
+<gap:platform name="webos" />
+<gap:platform name="symbian.wrt" />
+<gap:platform name="blackberry" project="widgets"/>
+</gap:platforms>
+
+<icon src="icon.png" gap:role="default" />
+<!-- if a single splash screen is specified it will be used for all platforms.
+    Multiple splash screens are recommended for iOS -->
+<gap:splash src="splashes/splash.png" />
+
+<feature name="http://api.phonegap.com/1.0/geolocation"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+
+<!-- sample preference specification -->
+<!-- <preference name="autorotate" value="false" readonly="true"/> -->
+</widget>
+
