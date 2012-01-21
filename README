@@ -1,1 +1,6 @@
-# .......
+git add *
+git commit -m 'initial upload'
+git push origin master
+
+//get code from git
+git pull
